@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Skills.css'
 import java from '../assets/java.png';
 import cp from '../assets/cp.png';
 
@@ -26,7 +26,6 @@ import github from '../assets/github.png';
 export default function Skills() {
   return (
     <div className="skills-container">
-      <h2 className="skill-page-heading">Skills Section</h2>
       <div className="skills-grid">
         <div className="skill-card">
           <h2 className="skill-heading">Programming Languages</h2>

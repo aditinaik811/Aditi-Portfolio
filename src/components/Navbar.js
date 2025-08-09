@@ -1,21 +1,22 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import './Navbar.css'
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-brand">Aditi</div>
-      <div className="navbar-links">
-        <NavLink to="/home" className="nav-link" activeclassname="active-link">Home</NavLink>
-        <NavLink to="/about" className="nav-link" activeclassname="active-link">About</NavLink>
-        <NavLink to="/skills" className="nav-link" activeclassname="active-link">Skills</NavLink>
-        <NavLink to="/projects" className="nav-link" activeclassname="active-link">Projects</NavLink>
-        <NavLink to="/achievements" className="nav-link" activeclassname="active-link">Achievements</NavLink>
-        <NavLink to="/resume" className="nav-link" activeclassname="active-link">Resume</NavLink>
-        <NavLink to="/contact" className="nav-link" activeclassname="active-link">Contact</NavLink>
-        <NavLink to="/contact" className="nav-link" activeclassname="active-link">hh</NavLink>
-        
+    <div className="navbar">
+      <div className="navbar-name">
+        <h1>ARN</h1>
       </div>
-    </nav>
+      <div className="navbar-links">
+        <Link to="/home" className="nav-link"><i className="fa-solid fa-house"></i>Home</Link>
+        <Link to="/about" className="nav-link"><i class="fa-solid fa-address-card"></i>About</Link>
+        <Link to="/education" className="nav-link"><i class="fa-solid fa-book"></i>Education</Link>
+        <Link to="/skills" className="nav-link"><i class="fa-solid fa-brain"></i>Skills</Link>
+        <Link to="/projects" className="nav-link"><i class="fa-solid fa-diagram-project"></i>Projects</Link>
+        <Link to="/achievements" className="nav-link"><i class="fa-solid fa-shield-halved"></i>Achievements</Link>
+        <Link to="/resume" className="nav-link"><i class="fa-solid fa-file"></i>Resume</Link>
+        <Link to="/contact" className="nav-link"><i class="fa-solid fa-phone-volume"></i>Contact</Link>   
+      </div>
+    </div>
   );
 }

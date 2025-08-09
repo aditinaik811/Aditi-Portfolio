@@ -1,0 +1,47 @@
+.resume-container {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a2e, #16213e); /* Dark gradient */
+  color: #e0e0e0;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.resume-title {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #1de9b6;
+}
+
+.resume-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 350px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(29, 233, 182, 0.2);
+}
+
+.resume-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.resume-actions {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.resume-actions a {
+  background-color: #1de9b6;
+  color: #121212;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.resume-actions a:hover {
+  background-color: #17b697;
+}

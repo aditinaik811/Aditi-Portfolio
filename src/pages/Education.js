@@ -1,13 +1,9 @@
-import React from "react";
-import './About.css'
-export default function About() {
+import React from 'react'
+import './Education.css'
+const Education = () => {
   return (
-    <div className="about-wrapper">
-      <div className="about">
-            <h1 className="about-box-heading">About Me</h1>
-            <p className="about-box-body">Computer Science Engineering student with experience in Java Programming Language, Full Stack Web Development (MERN Stack), Machine Learning , UI/UX design,Cloud Computing Technologies.</p>
-      </div>
-      <div className="about">
+    <div className='education-wrapper'>
+        <div className="about">
           <h1 className="about-box-heading">Education</h1>
           <h3>St Joseph Engineering College Vamanjoor, Manglore</h3>
           <ol>
@@ -26,10 +22,8 @@ export default function About() {
             <li>X Boards Percentage :94.72%</li>
           </ol>
       </div>
-      <div className="about">
-          <h1 className="about-box-heading">Long Term Goals</h1>
-          <p className="about-box-body">SOme odjkndkjn</p>
-      </div>
     </div>
-  );
+  )
 }
+
+export default Education

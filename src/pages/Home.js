@@ -1,13 +1,21 @@
 import React from "react";
-import Aditi from '../assets/Aditi.jpg'
- // Add your photo here
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer"; // Import Footer
+import './Home.css';
 
+// Example: Home.js
 export default function Home() {
   return (
-    <div className="home-container">
-      <h1 className="home-name">Aditi Ravindra Naik</h1>
-      <img src={Aditi}  alt="Aditi" className="home-photo" />
-      <p className="home-tagline">“Bringing Ideas to Life Through Code.”</p>
+    <div className="layout">
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="main">
+        <Outlet />
+      </div>
+      <Footer />
     </div>
   );
 }
+

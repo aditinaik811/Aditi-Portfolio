@@ -8,6 +8,7 @@ import cert6 from '../assets/cert6.png';
 import cert7 from '../assets/cert7.png';
 import cert8 from '../assets/cert8.png';
 import cert9 from '../assets/cert9.png';
+import './Achievements.css'
 
 export default function Certificates() {
   const [modalImage, setModalImage] = useState(null);
@@ -90,7 +91,7 @@ export default function Certificates() {
 
   return (
     <div className="certificates-container">
-      <h2 className="certificates-title">Certificates</h2>
+ 
 
       <div className="carousel-wrapper">
         <button className="carousel-button left" onClick={scrollLeft}>❮</button>

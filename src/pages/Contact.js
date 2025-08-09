@@ -1,8 +1,8 @@
-import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaLinkedin, FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
-
+import './Contact.css'
 export default function Contact() {
   return (
+   
     <div className="contact-page-container">
       <div className="contact-left">
         <h2>Contact Details</h2>
