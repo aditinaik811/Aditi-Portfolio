@@ -56,7 +56,7 @@
 .project-thumbnail {
   width: 100%;
   height: 180px;
-  object-fit: cover;
+  object-fit: fill;
   border-radius: 10px;
   margin-bottom: 15px;
   cursor: pointer;
