@@ -1,21 +1,12 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import cloudKitchen from '../assets/cloudKitchen.png';
-import Botany from '../assets/Botany.png';
-import slamBook from "../assets/slamBook.png";
-import weatherApp from '../assets/weatherApp.png';
-import ack from "../assets/ack.png"
-import music_web from "../assets/music_web.png";
-import quotes from "../assets/quotes.png";
-import blog from "../assets/blog.png"
-import calculator from '../assets/calculator.png';
-import scientificCalculator from '../assets/scientificCalculator.png';
+
+
 import './Project.css';
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projectsData = [
   {
-    image:ack,
+    image:"https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/ack.png",
     title:"Aditi's Cloud Kitchen",
     description:"A full-stack food ordering web application where users can browse dishes by category, add them to a cart, and place orders. Users can sign up, log in securely, and save delivery addresses for future orders. The app is built using the MERN  stack (MongoDB, Express.js, React.js, Node.js).It uses Cloudinary for image uploads and Razorpay for secure online",
     techStack:"MERN|Cloudinary|Razorpay",
@@ -23,7 +14,7 @@ const projectsData = [
     live:"https://aditi-cloud-kitchen-frontend.vercel.app/",
   },
   {
-    image:music_web,
+    image:"https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/music_web.png",
     title:"Harmony Hub Music Streaming Web App",
     description:"A responsive music streaming platform built with React, featuring artist-based navigation, song search, and audio playback. Users can explore songs by artist or title, with music files securely hosted on AWS S3. The app uses Firebase for user authentication. ",
     techStack:"Firebase|React|AWS(S3)",
@@ -31,7 +22,7 @@ const projectsData = [
     live:"https://music-web-vsy5.vercel.app/",
   },
   {
-    image:quotes,
+    image:"https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/quotes.png",
     title:"Multilingual Quotes Generator",
     description:"A webpage that lets you select quote from a vast set of regional languages along with some popular international languages along with their translations.",
     techStack:"React|JSON Files",
@@ -40,7 +31,7 @@ const projectsData = [
   },
 
   {
-    image:blog,
+    image:"https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/blog.png",
     title:"Blog Website",
     description:"A full-stack blogging platform where the admin can create and manage blog posts, and users can read content and post comments. Built using MERN stack with Firebase Authentication, Firebase Firestore for storing blog data and comments, and Firebase Storage for managing images.",
     techStack:"MERN|Firestore|Firebase Database",
@@ -49,7 +40,7 @@ const projectsData = [
   },
   
   {
-    image: cloudKitchen,
+    image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/cloudKitchen.png",
     title: "Aditi's Cloud Kitchen",
     description: "Designed and developed a front-end website for a home-based cloud kitchen to showcase menu offerings and enable online ordering. Implemented core features including food item display, add-to-cart functionality, and total price calculation.",
     techStack: "Tech Stack: HTML, CSS, JavaScript.",
@@ -57,7 +48,7 @@ const projectsData = [
     live: "#",
   },
   {
-    image: Botany,
+    image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/Botany.png",
     title: "Plant Pedia",
     description: "Plant Pedia is an interactive web application that helps plant lovers and gardeners access detailed information about various plants, including watering needs, soil preferences, sunlight requirements, and more.",
     techStack: "Tech Stack: React, CSS ",
@@ -65,7 +56,7 @@ const projectsData = [
     live: "#",
   },
   {
-    image: slamBook,
+    image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/slamBook.png",
     title: "Digital Slam Book",
     description: "Digital Slam Book Web App is a digital version of the classic slam book, developed using PHP and MySQL. It allows users to insert, view, update, and delete entries making it easy to collect and manage personalized responses from friends.",
     techStack: "Tech Stack: PHP, MySQL, XAMPP, HTML, CSS ",
@@ -73,7 +64,7 @@ const projectsData = [
     live: "#",
   },
   {
-    image: weatherApp,
+    image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/weatherApp.png",
     title: "Weather App",
     description: "Built a dynamic webpage that fetches and displays real-time weather data for any city using a public weather API.",
     techStack: "Tech Stack: HTML, CSS, JavaScript, Weather API.",
@@ -81,7 +72,7 @@ const projectsData = [
     live: "#",
   },
   {
-    image: scientificCalculator,
+    image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/scientificCalculator.png",
     title: "Scientific Calculator",
     description: "A fully-featured scientific calculator web app built using Vue.js. It supports arithmetic, scientific functions, number system conversions, and fraction/decimal toggling with a stylish, responsive UI.",
     techStack: "Tech Stack: Vue.js, CSS, Vite, and fraction.js.",
@@ -89,7 +80,7 @@ const projectsData = [
     live: "#",
   },
   {
-    image: calculator,
+    image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/calculator.png",
     title: "Calculator",
     description: "A calculator that performs simple arithmetic operations.",
     techStack: "HTML, CSS, Javascript",

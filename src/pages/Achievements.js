@@ -1,13 +1,4 @@
 import React, { useState } from "react";
-import cert1 from '../assets/cert1.png';
-import cert2 from '../assets/cert2.png';
-import cert3 from '../assets/cert3.png';
-import cert4 from '../assets/cert4.png';
-import cert5 from '../assets/cert5.png';
-import cert6 from '../assets/cert6.png';
-import cert7 from '../assets/cert7.png';
-import cert8 from '../assets/cert8.png';
-import cert9 from '../assets/cert9.png';
 import './Achievements.css'
 
 export default function Certificates() {
@@ -15,55 +6,55 @@ export default function Certificates() {
 
   const certificates = [
     {
-      image: cert1,
+      image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/cert1.png",
       title: "Introduction to Blockchain and Ethereum",
       organization: "Infosys|Springboard",
       date: "November 23 2024"
     },
     {
-      image: cert2,
+      image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/cert2.png",
       title: "Hyperledger for Blockchain Applications",
       organization: "Infosys|Springboard",
       date: "November 24 2024"
     },
     {
-      image: cert3,
+      image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/cert3.png",
       title: "Solidity Smart Contract Programming for Ethereum Blockchain",
       organization: "Infosys|Springboard",
       date: "November 26 2024"
     },
     {
-      image: cert4,
+      image:"https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/cert4.png",
       title: "Advanced Data Structures & Algorithms in Java : Sorting & Searching Algorithms",
       organization: "Infosys|Springboard",
       date: "May 19 2024"
     },
     {
-      image: cert5,
+      image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/cert5.png",
       title: "First Step Korean",
       organization: "Coursera",
       date: "Nov 2 2023"
     },
     {
-      image: cert6,
+      image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/cert6.png",
       title: "Bash Scripting and Shell Programming (Linux Command Line)",
       organization: "Infosys|Springboard",
       date: "February 28 2024"
     },
     {
-      image: cert7,
+      image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/cert7.png",
       title: "Getting Started with Go Programming Language",
       organization: "Infosys|Springboard",
       date: "Mar 30 2025"
     },
     {
-      image: cert8,
+      image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/cert8.png",
       title: "Stratergic Self Marketing and Personal Branding",
       organization: "Coursera",
       date: "April 27 2024"
     },
     {
-      image: cert9,
+      image: "https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/cert9.png",
       title: "Ports, Protocols & the OSI Model",
       organization: "Infosys|Springboard",
       date: "December 1 2024"

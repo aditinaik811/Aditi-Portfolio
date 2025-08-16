@@ -1,5 +1,3 @@
-import Aditi from '../assets/Aditi.jpg';
-import Footer from '../components/Footer';
 import './Tagline.css';
 
 const Tagline = () => {
@@ -7,7 +5,7 @@ const Tagline = () => {
 
     <div className="tag-wrapper">
       <div className="tag-photo">
-        <img src={Aditi} alt="Portrait of Aditi Ravindra Naik" className="home-photo" />
+        <img src="https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/Aditi.jpg" alt="Portrait of Aditi Ravindra Naik" className="home-photo" />
       </div>
       <div className="tag-body">
         <h1 className="home-name">Aditi Ravindra Naik</h1>

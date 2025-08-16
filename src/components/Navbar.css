@@ -38,6 +38,10 @@
   gap: 6px;
   transition: all 0.3s ease;
 }
+.nav-active-link{
+  color: goldenrod;
+  font-size: 18px;
+}
 
 .nav-link i {
   font-size: 1rem;

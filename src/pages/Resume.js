@@ -1,7 +1,7 @@
-import resumeThumbnail from '../assets/aditi_resume.png'; 
-import resumePDF from '../assets/Aditi_Ravindra_Naik_Fresher_Resume.pdf';
+
+
 import './Resume.css';
-import Footer from '../components/Footer';
+
 export default function Resume() {
   return (
     <div className="resume-container">
@@ -9,13 +9,13 @@ export default function Resume() {
 
       <div className="resume-card">
         <img 
-          src={resumeThumbnail} 
+          src="https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/resume_thumnail.png"
           alt="Resume Thumbnail" 
           className="resume-thumbnail" 
         />
         <div className="resume-actions">
-          <a href={resumePDF} target="_blank" rel="noopener noreferrer">View</a>
-          <a href={resumePDF} download>Download</a>
+          <a href="https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/Aditi_Ravindra_Naik_Resume.pdf" target="_blank" rel="noopener noreferrer">View</a>
+          <a href="https://aditi-portfolio-images-s3.s3.ap-south-1.amazonaws.com/assets/Aditi_Ravindra_Naik_Resume.pdf" download>Download</a>
         </div>
       </div>
   

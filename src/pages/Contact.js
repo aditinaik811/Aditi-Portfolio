@@ -14,27 +14,27 @@ export default function Contact() {
 
         <div className="contact-item">
           <FaEnvelope className="contact-icon" />
-          <a href="mailto:aditinaik811@gmail.com">aditinaik@gmail.com</a>
+          <a href="mailto:aditinaik811@gmail.com">aditinaik811@gmail.com</a>
         </div>
 
         <div className="contact-item">
           <FaLinkedin className="contact-icon" />
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/aditi-naik-667aa1318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
 
         <div className="contact-item">
           <FaGithub className="contact-icon" />
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://github.com/aditinaik811" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
 
         <div className="contact-item">
           <FaInstagram className="contact-icon" />
-          <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.instagram.com/aditi_naik811?igsh=MTl2Nm94cjVpdDd2MA==" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
 
         <div className="contact-item">
           <FaFacebook className="contact-icon" />
-          <a href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
         </div>
       </div>
 
