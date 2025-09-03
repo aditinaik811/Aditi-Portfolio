@@ -28,7 +28,7 @@ export default function About() {
       </div>
       <div className="about">
           <h1 className="about-box-heading">Long Term Goals</h1>
-          <p className="about-box-body">SOme odjkndkjn</p>
+          <p className="about-box-body">I aim to build deep, practical expertise across multiple technology domains — including web development, mobile apps, cloud computing, AI/ML, DevOps, and emerging technologies — by working on real projects and contributing to open source. This will enable me to adapt quickly, collaborate effectively, and deliver value in diverse tech environments.</p>
       </div>
     </div>
   );
